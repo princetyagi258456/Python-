@@ -1,0 +1,20 @@
+%%writefile myfile.txt
+Hello this is a text file
+this is a second file
+this is a third file
+
+myfile=open('myfile.txt')
+pwd
+myfile=open('myfile.txt')
+myfile.read()
+myfile.read()
+myfile.seek(0)
+
+myfile.read()
+contents= myfile.read()
+contents
+myfile.seek(0)
+contents
+myfile.seek(0)
+myfile.readlines()
+
