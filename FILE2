@@ -1,0 +1,32 @@
+%%writefile my_new_file.txt
+ONE ON FIRST
+TWO ON SECOND
+THREE ON THIRD
+=Writing my_new_file.txt
+
+with open('my_new_file.txt',mode='r') as f:
+    print(f.read())
+=ONE ON FIRST
+TWO ON SECOND
+THREE ON THIRD
+    
+    with open('my_new_file.txt',mode='a') as f:
+    f.write('\nFOUR ON FOURTH')
+
+
+    with open('my_new_file.txt',mode='r') as f:
+    print(f.read())
+   =ONE ON FIRST
+TWO ON SECOND
+THREE ON THIRD
+FOUR ON FOURTH
+
+
+with open('dcgvfdsvsdvfsvf.txt',mode='w') as f:
+    f.write('I CREATED THIS FILE')
+    
+    with open('dcgvfdsvsdvfsvf.txt',mode='r') as f:
+    print(f.read())
+    =I CREATED THIS FILE
+
+    
