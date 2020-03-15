@@ -1,0 +1,6 @@
+x=5
+if(x>1):
+     print("X is greater")
+else:
+     print('X is smaller')
+print('All Done') 
