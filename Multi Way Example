@@ -1,0 +1,8 @@
+x=5
+if(x<2):
+    print('X is Graeter than 2',x)
+elif(x<10):
+    print('X is Smaller than 10',x)
+else:
+    print('All Done')
+    
