@@ -1,0 +1,13 @@
+x=60
+if(x<2):
+    print('X is Graeter than 2',x)
+elif(x<10):
+    print('X is Smaller than 10',x)
+elif(x<20):
+    print('X is Smaller than 20',x)
+elif(x<40):
+    print('X is Smaller than 40',x)
+elif(x<100):
+    print('X is Smaller than 100',x)
+else:
+    print('All Done')
