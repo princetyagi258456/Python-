@@ -1,0 +1,6 @@
+x=11
+if (x<10):
+    print('smaller',x)
+else :
+    print('greater',x)
+print('Finish')
