@@ -1,0 +1,8 @@
+sh=input('Enter Hours:')
+sr=input('Enter Rate:')
+try:
+    fh=int(sh)
+    fr=int(sr)
+except:
+    print('Error Please enter your numeric data')
+    quit()
