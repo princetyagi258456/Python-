@@ -1,0 +1,11 @@
+def greet(lang): #function
+    if(lang=='es'):
+     print('Apple')
+    elif(lang=='fr'):
+     print('Google')
+    else :
+     print('Android')
+     
+greet('fr')
+greet('es')
+greet('r')
