@@ -1,0 +1,5 @@
+def greet():
+    return 'hello'
+print(greet(),'Google')
+print(greet(),'Apple')
+    
