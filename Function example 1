@@ -1,0 +1,9 @@
+x=5
+print('Hello')
+def print_lyrics(): #Function
+    print("I'm a lumberjack,and I'm a okay.")
+    print("I sleep all night and I work all day")
+print('Yo')
+print_lyrics() #Function use
+x=x+2
+print(x)
