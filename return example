@@ -1,5 +1,7 @@
 def greet():
     return 'hello'
+def preet():
+    return 'Bye'
 print(greet(),'Google')
-print(greet(),'Apple')
+print(preet(),'Apple')
     
