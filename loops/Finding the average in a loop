@@ -1,0 +1,8 @@
+sum=0
+count=0
+print('Before',sum,count)
+for thing in [9,41,12,3,74,15]:
+    count=count+1
+    sum=sum+thing
+    print(sum,thing)
+print('After',sum,count,sum/count)
