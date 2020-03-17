@@ -1,0 +1,4 @@
+friends=['apple','google','microsoft']
+for friend in friends :
+    print('Hey..',friend)
+print('Done!')
