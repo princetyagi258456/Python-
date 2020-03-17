@@ -1,0 +1,6 @@
+zork=1
+print('Before',zork)
+for thing in [2,2,2]:
+    zork=zork*thing
+    print(zork,thing)
+print('After',zork)
