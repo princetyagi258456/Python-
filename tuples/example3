@@ -1,0 +1,4 @@
+t=('a','a','b')
+t.count('a')
+t.index('b')
+t.index('a')
