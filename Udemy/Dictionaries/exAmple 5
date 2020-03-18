@@ -1,0 +1,4 @@
+d={'k1': 'new value', 'k2': 200, 'k3': 300}
+d.keys()
+d.values()
+d.items()
