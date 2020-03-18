@@ -1,0 +1,2 @@
+prices_lookup={'apple':2.99,'oranges':1.99,'milk':5.80}
+prices_lookup['apple']
