@@ -1,0 +1,6 @@
+hungry=True
+
+if hungry:
+    print('Feed Me!')
+else:
+    print('I m NOt hungry')
