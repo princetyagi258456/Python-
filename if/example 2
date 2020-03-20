@@ -1,0 +1,8 @@
+loc='Bank'
+
+if loc== 'Auto shop':
+    print('Cars Are cool!')
+elif loc == 'Bank':
+    print('Money is Cool')
+else:
+    print('I do not know much.')
