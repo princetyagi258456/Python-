@@ -1,0 +1,8 @@
+name ='Sammy'
+
+if name=='Frankie':
+    print('HELLO FRSNKIE')
+elif name=='Sammy':
+    print('HELLO SAMMY')
+else:
+    print('What is Your Name.?')
