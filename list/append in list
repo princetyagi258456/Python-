@@ -13,5 +13,13 @@ mylist
 mylist=[xyz for xyz in 'word']
 mylist
 
+#another example of this
+mylist=[x**2 for x in range(0,51)]
+mylist
+
+#another example of this
+mylist=[x for x in range(0,51) if x%2==0]
+mylist
+
 
     
