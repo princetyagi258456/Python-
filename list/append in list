@@ -21,5 +21,9 @@ mylist
 mylist=[x for x in range(0,51) if x%2==0]
 mylist
 
+#another example of this
+results=[x if x%2==0 else 'ODD' for x in range(0,11)]
+results
+
 
     
