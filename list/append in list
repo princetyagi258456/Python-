@@ -1,0 +1,17 @@
+mystring='hello'
+mylist=[]
+
+for letter in mystring:
+    mylist.append(letter)
+mylist
+
+#second method to use append
+mylist=[letter for  letter in mystring]
+mylist
+
+#another example of this
+mylist=[xyz for xyz in 'word']
+mylist
+
+
+    
