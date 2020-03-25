@@ -1,0 +1,8 @@
+#First Type
+st = 'Create a list of the first letters of every word in this string'
+for word in st.split():
+    print(word[0])
+    
+#second type
+st = 'Create a list of the first letters of every word in this string'
+[x[0] for x in st.split() ]
