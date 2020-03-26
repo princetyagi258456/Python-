@@ -1,0 +1,11 @@
+def dog_check(mystring):
+   # if 'dog' in mystring.lower():
+    #    return True
+    #else:
+     #   return False
+     OR
+    return 'dog' in mystring.lower()
+    
+    dog_check('Dog ran away')
+    output
+    True
