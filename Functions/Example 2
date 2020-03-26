@@ -1,0 +1,8 @@
+def say_hello(name='NAME'):
+    return 'hello ' +name
+    
+results=say_hello('zack')
+results
+
+output
+'hello zack'
