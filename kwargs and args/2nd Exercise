@@ -1,0 +1,13 @@
+#Use kwargs
+
+def myfunc(**kwargs):
+    print(kwargs)
+    if 'fruit' in kwargs:
+        print('My Fruit of choice is{}'.format(kwargs['fruit']))
+    else:
+        print('I did not find any fruit here')
+        
+ myfunc(fruit='apple',veggie='lettice')
+ Output
+ {'fruit': 'apple', 'veggie': 'lettice'}
+My Fruit of choice isapple
