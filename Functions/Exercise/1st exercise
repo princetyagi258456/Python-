@@ -1,0 +1,4 @@
+#Define a Function called (myfunc) that takes in a name,and print'Hello Name'
+
+def myfunc(name):
+    print('Hello {}'.format(name))
