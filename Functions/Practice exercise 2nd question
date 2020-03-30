@@ -1,0 +1,24 @@
+Write a function that returns the lesser of two given numbers if both numbers are even, but returns the greater if one or both numbers are odd
+lesser_of_two_evens(2,4) --> 2
+lesser_of_two_evens(2,5) --> 5
+
+def animal_crackers(text):
+    wordlist=text.split()
+    print(wordlist)
+    
+    first= wordlist[0]
+    second=wordlist[1]
+    
+    return first[0]==second[0]
+ 
+ 
+ 
+animal_crackers('LevelHead Liama')
+O/P
+['LevelHead','Liama']
+True
+
+animal_crackers('Crazy Kangaro')
+O/P
+['Crazy','Kangaro']
+False
