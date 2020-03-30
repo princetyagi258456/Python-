@@ -3,7 +3,7 @@ lesser_of_two_evens(2,4) --> 2
 lesser_of_two_evens(2,5) --> 5
 
 def animal_crackers(text):
-    wordlist=text.split()
+    wordlist=text.lower().split()
     print(wordlist)
     
     first= wordlist[0]
