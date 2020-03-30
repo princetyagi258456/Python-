@@ -1,0 +1,20 @@
+MASTER YODA: Given a sentence, return a sentence with the words reversed
+master_yoda('I am home') --> 'home am I'
+master_yoda('We are ready') --> 'ready are We'
+
+def master_yoda(text):
+    wordlist=text.split()
+    reversed_word_list=wordlist[::-1]
+    return reversed_word_list
+    
+    Or
+    #we use join operation
+    def master_yoda(text):
+    wordlist=text.split()
+    reversed_word_list=wordlist[::-1]
+    return ' '.join(reversed_word_list)
+    
+    
+    Output
+    master_yoda('I am Home')
+    ['Home', 'am', 'I']
