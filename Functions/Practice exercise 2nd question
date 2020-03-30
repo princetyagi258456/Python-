@@ -10,7 +10,10 @@ def animal_crackers(text):
     second=wordlist[1]
     
     return first[0]==second[0]
- 
+        
+        OR
+        
+        return wordlist[0][0]==wordlist[1][0]
  
  
 animal_crackers('LevelHead Liama')
