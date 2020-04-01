@@ -1,0 +1,17 @@
+
+PAPER DOLL: Given a string, return a string where for every character in the original there are three characters
+paper_doll('Hello') --> 'HHHeeellllllooo'
+paper_doll('Mississippi') --> 'MMMiiissssssiiippppppiii'
+
+CODE
+def paper_doll(text):
+    result =' '
+    for char in text:
+        result+=char*3
+    return result
+    
+OUTPUT
+paper_doll('Hello')
+' HHHeeellllllooo'
+paper_doll('PRINCE')
+' PPPRRRIIINNNCCCEEE'
