@@ -1,0 +1,13 @@
+def square(num):
+    return num**2
+my_nums=[1,2,3,4]
+
+# OR
+   #list(map(square,my_nums))
+for item in map(square,my_nums):
+    print(item)
+1
+4
+9
+16
+       
