@@ -1,0 +1,9 @@
+def splicer(mystring):
+    if len(mystring)%2==0:
+        return 'EVEN'
+    else:
+        return mystring[0]
+    names=['Andy','andy','xyz','prince','tyagi']
+    list(map(splicer,names))
+    
+    ['EVEN', 'EVEN', 'x', 'EVEN', 't']
