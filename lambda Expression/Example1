@@ -1,0 +1,5 @@
+#Sqaure of any number using lambda function
+square=lambda num: num**2
+
+square(5)
+25
