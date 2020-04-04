@@ -1,0 +1,7 @@
+#Check number is even or not using lambda expression
+
+
+even=lambda num: num%2==0
+
+even(76)
+Even
