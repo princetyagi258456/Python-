@@ -1,0 +1,16 @@
+x=50
+def func(x):
+
+	print(f'x is {x}')
+	
+	# LOCAL REASSIGNMENT ON A GLOBAL VARIABLE!
+	
+	x = 200
+	print(f'I JUST CHANGED X TO {x}')
+	return x
+	
+func(x)
+50
+I JUST CHANGED X TO 200
+print(x)
+50
