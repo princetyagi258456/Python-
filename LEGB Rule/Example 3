@@ -1,0 +1,16 @@
+#Global
+name = 'THIS IS A GLOBAL STRING'
+
+def greet():
+	#ENCLOSING
+	name ='Sammy'
+	
+	def hello():
+		#LOCAL
+		name='IM A LOCAL'
+		print('Hello'+name)
+	
+	hello()
+  
+greet()
+Hello IM A LOCAL
