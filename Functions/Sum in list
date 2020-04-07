@@ -1,0 +1,13 @@
+def abc():
+    d=[]
+    sum1=0
+    a=int(input('Enter the size:'))
+    for b in range(a):
+        data=int(input('Enter list:'))
+        d.append(data)
+    for c in d:
+        sum1+=c
+    print('Sum is',sum1)
+
+abc()
+    
