@@ -1,0 +1,13 @@
+
+Write a function that checks whether a number is in a given range (inclusive of high and low)
+
+def ram_check():
+    a=int(input('Enter number'))
+    b=int(input('Enter lowest'))
+    c=int(input('Enter highest'))
+    if a in range(b,c):
+        print('True')
+    else:
+        print('False')
+    
+ ram_check()
