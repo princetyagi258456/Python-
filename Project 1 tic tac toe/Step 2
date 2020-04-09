@@ -1,0 +1,21 @@
+Step 2
+
+def player_input():
+    
+    '''
+    output(player 1 marker,player 2 marker)
+    '''
+    
+    marker=''
+    
+    while not(marker=='X' or marker=='O'):
+        marker= input('Player 1: choose X or O:  ').upper()
+        
+        if marker=='X':
+            return('X','O')
+        else:
+            return('O','X')
+            
+      
+   player1_marker,player2_marker=player_input()
+   
