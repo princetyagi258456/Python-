@@ -1,0 +1,6 @@
+Step 6: Write a function that returns a boolean indicating whether a space on the board is freely available.
+
+#Step 6
+def space_check(board,position):
+    
+    return board[position]==''
