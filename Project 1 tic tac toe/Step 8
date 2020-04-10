@@ -1,0 +1,12 @@
+Step 8: Write a function that asks for a player's next position (as a number 1-9) and then uses the function from step 6 to check if its a free position. If it is, then return the position for later use.
+
+#Step 8
+def player_choice(board):
+    
+    position=0
+    
+    while position not in [1,2,3,4,5,6,7,8,9] or not space_check(board,position):
+        position=int(input('Choose a position:(1-9)'))
+        
+    return position
+    
