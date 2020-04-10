@@ -1,0 +1,13 @@
+Step 5: Write a function that uses the random module to randomly decide which player goes first. You may want to lookup random.randint() Return a string of which player went first.
+
+#Step 5
+import random
+
+def choose_first():
+    flip=random.randint(0,1)
+    
+    if flip==0:
+        return 'Player 1'
+    else:
+        return 'Player 2'
+        
