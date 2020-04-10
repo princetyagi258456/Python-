@@ -1,0 +1,11 @@
+
+Step 7: Write a function that checks if the board is full and returns a boolean value. True if full, False otherwise.
+
+#Step 7
+def full_board_check(board):
+    
+    for i in range(1,10):
+        if space_check(board,i):
+            return False
+    #Board is full is we return true
+    return True
