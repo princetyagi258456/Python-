@@ -1,0 +1,20 @@
+class Dog():
+    
+    def __init__(self,breed,name,spots):
+        #Attributes
+        #We take in the argument
+        #Assign it using self.attribute_name
+        self.breed= breed
+        self.name =name
+        self.spots= spots
+      
+    
+    my_Dog=Dog(breed='Huskie',name='Zack',spots=False)
+    type(my_Dog)
+    Output:-__main__.Dog
+    my_Dog.breed
+    Output:-'Huskie'
+    my_Dog.name
+    Output:-'Zack'
+    my_Dog.spots
+    Output:-False
