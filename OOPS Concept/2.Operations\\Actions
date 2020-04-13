@@ -1,0 +1,29 @@
+class Dog():
+    species='mammal'
+    Age=20
+def __init__(self,breed,name):
+        #Attributes
+        #We take in the argument
+        #Assign it using self.attribute_name
+        self.breed= breed
+        self.name =name
+       
+      #OPERATIONS/Actions --->Methods
+    def bark(self,number):
+        print('WOOF! My name is {} and the number is {}'.format(self.name,number))
+        
+        
+my_Dog=Dog(breed='Huskie',name='Zack')
+type(my_Dog)
+__main__.Dog
+my_Dog.Age
+20
+my_Dog.name
+'Zack'
+my_Dog.species
+'mammal'
+my_Dog.bark
+<bound method Dog.bark of <__main__.Dog object at 0x7f151a047610>>       #Without () <- this we cannot run in this
+my_Dog.bark(10)
+WOOF! My name is Zack and the number is 10
+    
