@@ -1,0 +1,15 @@
+def chk():
+    b=[]
+    a=int(input('Enter the size:'))
+    for i in range(a):
+        data=int(input('Enter list:'))
+        b.append(data)
+    print(b)
+    total=0
+    for i in b:
+        total +=i
+    print('Sum is',total)
+
+
+    
+chk()
