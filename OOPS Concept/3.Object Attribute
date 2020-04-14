@@ -1,0 +1,25 @@
+class Circle():
+
+    #CLASS OBJECT ATTRIBUTE
+    pi=3.14
+
+    def __init__(self,radius=1):
+
+        self.radius = radius
+        self.area = radius*radius*Circle.pi*2
+    #METHOD
+    def get_circumference(self):
+        return self.radius * Circle.pi * 2
+
+my_circle = Circle()
+>>> my_circle.pi
+3.14
+>>> my_circle.radius
+1
+>>> my_circle = Circle(30)
+>>> my_circle.pi
+3.14
+>>> my_circle.radius
+30
+ my_circle.get_circumference()
+188.4
