@@ -1,0 +1,13 @@
+#Use Raw String we can add simply r before any string
+print(r'c:\docs\navin')
+Output
+c:\docs\navin
+
+#Without use Raw (r) in any string
+
+print('c:\docs\navin')
+Output
+c:\docs
+avin
+
+#Basic Difference of  use Raw String  
