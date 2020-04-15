@@ -1,0 +1,103 @@
+#Int
+#float
+#complex
+#bool
+
+#sequence(List,Tuple,Set,String,Range)
+
+>>> num = 2.5
+>>> type(num)
+<class 'float'>
+>>> num =5
+>>> type(num)
+<class 'int'>
+>>> num = 6+9j
+>>> type(num)
+<class 'complex'>
+>>> a = 5.6
+>>> b = int(a)
+>>> type(b)
+<class 'int'>
+>>> b
+5
+>>> k= float(b)
+>>> h
+Traceback (most recent call last):
+  File "<pyshell#43>", line 1, in <module>
+    h
+NameError: name 'h' is not defined
+>>> k
+5.0
+>>> k=6
+>>> c= complex(b,k)
+>>> c
+(5+6j)
+>>> b<k
+True
+>>> bool = b<k
+>>> type(bool)
+<class 'bool'>
+>>> bool
+True
+>>> b > k
+False
+>>> int(True)
+1
+>>> int(False)
+0
+>>> lst = [24,45,56,12]
+>>> type(lst)
+<class 'list'>
+>>> s ={23,34,34,4,455,45,56}
+>>> type(s)
+<class 'set'>
+>>> t = {23,34,45,56}
+>>> type(t)
+<class 'set'>
+>>> t=(34,45,45,56,56)
+>>> type(t)
+<class 'tuple'>
+>>> 
+>>> str='Prince'
+>>> st = 'a'
+>>> type(st)
+<class 'str'>
+>>> 
+>>> range(0,10)
+range(0, 10)
+>>> list(range(10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> 
+>>> list(range(2,10,2))
+[2, 4, 6, 8]
+>>> type(range)
+<class 'type'>
+>>> type(range(10))
+<class 'range'>
+>>> 
+
+
+>>> #Dictionary
+>>> d = {'navin':'samsung','rahul':'iphone','kiran':'Oneplus'}
+>>> d
+{'navin': 'samsung', 'rahul': 'iphone', 'kiran': 'Oneplus'}
+>>> d.keys()
+dict_keys(['navin', 'rahul', 'kiran'])
+>>> d.	values()
+dict_values(['samsung', 'iphone', 'Oneplus'])
+>>> d['rahul']
+'iphone'
+>>> d.get('kiran')
+'Oneplus'
+>>> d('kiran')
+Traceback (most recent call last):
+  File "<pyshell#82>", line 1, in <module>
+    d('kiran')
+TypeError: 'dict' object is not callable
+>>> d.get['kiran']
+Traceback (most recent call last):
+  File "<pyshell#83>", line 1, in <module>
+    d.get['kiran']
+TypeError: 'builtin_function_or_method' object is not subscriptable
+>>> d.get('rahul')
+'iphone'
