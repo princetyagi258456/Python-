@@ -35,3 +35,11 @@ NameError: name 'sqrt' is not defined
 5.0
 >>> m.sqrt(25)
 5.0
+
+
+>>> from math import sqrt,pow
+>>> pow(4,5)
+1024.0
+>>> sqrt(5)
+2.23606797749979
+>>> help('math')# to check property of math
