@@ -1,0 +1,34 @@
+#1.PROGRAM
+x=int(input('How many Candies you wANT'))
+ab=10
+i=1
+while(i<=x):
+
+      if(i>ab):
+            print('Out of stock')
+            break
+
+      print('Candy')
+      i+=1
+print('Bye')
+OUTPUT
+How many Candies you wANT15
+Candy
+Candy
+Candy
+Candy
+Candy
+Candy
+Candy
+Candy
+Candy
+Candy
+Out of stock
+Bye
+
+#2.
+for i in range(1,101):
+      if(i%3==0 or i%5==0):
+            continue
+      print(i)
+print('Bye')
