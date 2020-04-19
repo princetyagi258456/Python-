@@ -1,0 +1,29 @@
+#1PROGRAM
+for i in range(4):
+      for j in range(4):
+            print('#',end='')
+      print( )
+####
+####
+####
+####
+
+#2.
+for i in range(4):
+      for j in range(i):
+            print('#',end='')
+      print( )
+#
+##
+###
+####
+
+3.
+for i in range(4):
+      for j in range(4-i):
+            print('#',end='')
+      print( )
+####
+###
+##
+#
