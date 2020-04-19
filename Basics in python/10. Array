@@ -1,0 +1,10 @@
+from array import*
+
+vals = array('i',[5,9,8,4,2])
+new=array(vals.typecode,(a for a in vals))
+#vals.reverse()
+#vals = array('u',['a','r','d'])
+
+for e in new:             
+            
+      print(e) 
