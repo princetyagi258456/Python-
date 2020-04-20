@@ -1,0 +1,13 @@
+from numpy import *
+#array()
+#1.arr = array([1,2,3,4,5.0],float)
+#linspace()
+#arr=linspace(0,15)
+#arr=arange(1,15,2)
+#logspace()
+#arr=logspace(1,40,5)
+#zeros()
+#arr =zeros(4)
+#ones()
+#arr=ones(5,int)
+print(arr)
