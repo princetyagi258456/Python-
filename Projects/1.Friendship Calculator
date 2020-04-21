@@ -1,0 +1,18 @@
+alphabet='bcghjklmpqtvwyz'
+score=0
+names=input('Enter First Name and give space Enter second name')
+for char in names:
+      if char in 'aeiou':
+            score+=5
+      elif char in 'friends':
+            score+=10
+      elif char in alphabet:
+            score+=alphabet.find(char)
+      else:
+            score+=0
+
+if score>=100:
+            print('your friendship number is',score)
+            print('Congratulations you both are best friend')
+else:
+            print('your friendship number is',score)
