@@ -1,0 +1,20 @@
+#arr1 = array([1,2,3,4,5])
+#arr2 = array([1,2,3,4,5])
+#arr3=arr1+arr2
+#arr1 = array([1,2,3,4,5])
+#print(sin(arr1))
+#print(cos(arr1))
+#print(log(arr1))
+#print(sqrt(arr1))
+#print(sum(arr1))
+#print(min(arr1))
+#print(max(arr1))
+#print(concatenate([arr1,arr2]))
+#arr2 = arr1#Shallow copy 
+#arr1[1]=7 # this is a Shallow copy because arr2 depend upon the arr2
+#arr2 = arr1.view()#Address is different because of view function
+#arr2 = arr1.copy()#Deep copy change only affectd only arr1
+#print(arr1)
+#print(arr2)
+#print(id(arr1))
+#print(id(arr2))
