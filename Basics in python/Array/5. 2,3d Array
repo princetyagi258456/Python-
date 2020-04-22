@@ -1,0 +1,24 @@
+arr1 = array([
+    
+                [1,2,3,4],
+                [4,5,6,5]
+    
+            ])
+
+arr2=arr1.flatten()# Convert multi dimension into single dimension
+print(arr2)##OUtPUT [1,2,3,4,5,6]
+#arr3=arr2.reshape(3,4)# Convert singlr dimension into multi dimension
+#arr3=arr2.reshape(2,2,3)# Convert 3Dimension array
+#print(arr3)
+print(arr1.dtype)#OUtPUT int64
+print(arr1.ndim)#OUtPUT 2
+print(arr1.shape)#OUtPUT (2,3)
+print(arr1.size)#OUtPUT 6
+m = matrix('1,2;3,6 ; 4,5;6,7 ; 1,2;3,4')#With the help of matrix we can create 2d array
+print(diagonal(m))
+print(m.min())
+print(m.max())
+m1=matrix('1,2,3;6,4,5;6,7,1')
+m2=matrix('1,2,3;6,4,5;6,7,1')
+m3 = m1 * m2 #we can use(+,-,/)
+print(m3)
