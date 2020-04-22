@@ -1,0 +1,14 @@
+#Keyword Variable Length Arguments
+
+def person(name, **data): #Passing multiple argumements with the help of keyword
+      
+      print(name)
+# 	  print(data) we can also use this 
+      for i,j in data.items():
+            
+            print(i,j)
+ 
+ 
+person('prince',age=22,city='Delhi',mob=862003030)
+
+
