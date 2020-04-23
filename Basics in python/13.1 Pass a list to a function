@@ -1,0 +1,9 @@
+#Count string is greater then 5
+def name(lst):
+
+      for i in lst:
+            if len(i)>5:
+                  print(i)            
+      
+lst=['dfcdsfc','dfadsc','adf','dasf']
+name(lst)
