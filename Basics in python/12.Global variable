@@ -1,0 +1,11 @@
+#Global variable use
+a = 10
+def something():
+       
+       a=9
+       #x = globals()['a']
+       #print(id(x))
+       print('in fun',a)#OUTPUT in fun 9
+       globals()['a']=15 # with the help of this we can use global varible into local variable
+something()
+print('outside',a)#OUTPUT outside 15
