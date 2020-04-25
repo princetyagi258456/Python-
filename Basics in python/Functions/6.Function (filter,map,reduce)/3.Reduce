@@ -1,0 +1,10 @@
+#[Reduce]
+from functools import reduce
+nums =[2,3,4,56,4,3,4,6,7]
+evens=list(filter(lambda n:n%2==0,nums))
+#Output:-[4, 8, 112, 8, 8, 12]
+doubles=list(filter(lambda n:n*2,nums))
+#Output:-[4, 6, 8, 112, 8, 6, 8, 12, 14]
+sum=reduce(lambda a,b:a+b,doubles)
+#Output:-178
+print(sum)
