@@ -1,0 +1,12 @@
+class Computers:
+
+      def __init__(self,cpu,ram):
+            self.cpu=cpu
+            self.ram=ram
+      def config(self):
+            print('Config is',self.ram,self.cpu)
+com1=Computers('i5',4)
+com2=Computers('i3',8)
+com1.config()
+com2.config()
+
