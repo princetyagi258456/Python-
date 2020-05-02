@@ -1,0 +1,16 @@
+#If you define variable in init is become (Instance variable) and if you define outside init it becomes (Class variable)
+class car:
+      Wheels = 4 #Class Variable(Static variable)
+      def __init__(self):
+            self.mil=10
+            self.com='BMW' #Instance variable
+
+c1=car()
+c2=car()
+c1.mil =0
+c1.com='Audi'
+c2.Wheels=5
+print(c2.com,c1.mil,c1.Wheels)
+print(c1.com,c2.mil,c2.Wheels)
+
+
