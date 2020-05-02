@@ -1,0 +1,21 @@
+#Methods(Instance methods,Class methods,Static methods)
+#Instance methods also have two types(Accessor Methods(If you want to fetch the value of the instance variable),Mutator Methods(If you want to modify the value of the instance variable))
+class Student:
+      school='Telusko'
+      def __init__(self,m1,m2,m3):
+            self.m1= m1
+            self.m2= m2
+            self.m3= m3
+      def avg(self):
+            return(self.m1+self.m2+self.m3)/3
+     ''' def get_m1(self):#Accessor method(Instance)
+            return self.m1
+      def set_m1(self,value):#Mutator Method(Instance)
+            self.m1=value'''
+     
+s1=Student(6,6,6)
+s2=Student(12,34,67)
+s1.avg
+s2.avg
+print(s1.avg())
+print(s2.avg())
