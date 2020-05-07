@@ -1,0 +1,10 @@
+#method overriding
+
+class A():
+      def show(self):
+            print('In method A')
+class B(A):
+      def show(self):
+            print('In ,method B')
+s=B()
+s.show()
