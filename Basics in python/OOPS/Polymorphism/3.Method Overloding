@@ -1,0 +1,22 @@
+#Method overloading 
+
+class Student():
+      def __init__(self,m1,m2):
+            self.m1=m1
+            self.m2=m2
+            
+      def sum(self,s1=None,s2=None,s3=None):#Because of none we fir
+            a3=0
+            if s1!=None and s2!=None and s3!=None:
+                          a3=s1+s2+s3
+            elif s1!=None and s2!=None:
+                          a3=s1+s2
+            else:
+                          a3= s1
+
+            return a3             
+            
+
+s1=Student(2,3)
+
+print(s1.sum(4,2,2))
