@@ -1,0 +1,17 @@
+counts=dict()
+counts1=dict()
+names=['prince','shobhit','ritika','prince','ritika']
+fathers=['pradeep','prabhtat','xyz','pradeep','xyz']
+for name in names:
+      if name not in counts:
+            counts[name]=1
+      else:
+            counts[name]=counts[name]+1
+      
+print(counts)
+for father in fathers:
+      if father not in counts1:
+           counts1[father]=+1
+      else:
+            counts1[father]=counts1[father]+1
+print(counts1)
