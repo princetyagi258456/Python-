@@ -1,0 +1,21 @@
+#Method which is decorated with @abstractmethod and does not have any definition.
+#Python Don't support Abstract class, So we have ABC(abstract Base Classes) Module, so we can use here to achieve abstract classes. And will see what is abstract class and why we need it. An abstract class can be considered as a pattern for other classes. A class which contains one or more abstract methods is called an abstract class. An abstract method is a method that has a declaration but does not have an implementation.
+
+from abc import ABC, abstractmethod #import ABC Module use archieve abstract class
+class Computer(ABC):
+      @abstractmethod
+      def process(self):
+            pass
+
+class Laptop(Computer):
+      def process(self):
+            print('its running')
+class Programmer:
+      def work(self,com):
+            print('solve bugs')
+            com.process()
+#com=Computer()
+com1=Laptop()
+#com1.process()
+com2=Programmer()
+com2.work(com1)#use Laptop method in Programmer class
