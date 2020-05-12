@@ -1,0 +1,10 @@
+nums=[1,2,3,4]
+#First Method to print nums(ITERATOR METHOD)
+it=iter(nums)#ITERATOR METHOD WE USE (iter)
+print(it.__next__())#OUTPUT:-1
+print(next(it))#OUTPUT:-2
+print(next(it))#OUTPUT:-3
+print(next(it))#OUTPUT:-4
+#Second Method to print nums(for loops)
+for i in nums:
+      print(i)
