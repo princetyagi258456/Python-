@@ -1,0 +1,15 @@
+#Generator Eg:-You are fatching 1000 record from a database may be you want to print all or process those records
+#So, there are 1000 records but we want to work with 1 value at a time in that case we can use generators(Instead of fetching entire records we can fetch one by one value) ) 
+
+def topten():
+      yield 1
+      yield 2
+      yield 3
+      yield 4
+      yield 5
+values=topten()
+print(values.__next__())
+print(next(values))
+print(values.__next__())
+for i in values:
+      print(i)
