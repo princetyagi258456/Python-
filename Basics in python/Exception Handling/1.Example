@@ -1,0 +1,25 @@
+#ERROR 3 TYPES:-Compile time error(missing (:)in a program),Logical error,Run time error(code not give logical,compile time error in [eg.divide by zero])
+#EXCEPTION HANDLING
+a=5
+b=4
+try:
+      print('resource open')
+      print(a/b)
+      k= int(input('enter a number'))
+      print(k)
+except ZeroDivisionError as e:
+      print('Hey,You cannot divide by zero',e)
+except ValueError as e:
+      print('Invalid Input')
+finally:#Finally block will be executed if we get error as well as if we don't get the error.
+      print('resource closed')
+print('Bye')
+
+OUTPUT
+
+resource open
+1.25
+enter a number p
+Invalid Input
+resource closed
+Bye
