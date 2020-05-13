@@ -1,0 +1,21 @@
+def topten():
+
+       n=1
+       while n<=10:
+             sq=n*n
+             yield sq
+             n+=1
+values=topten()
+for i in values:
+      print(i)           
+OUTPUT:-
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
