@@ -1,0 +1,35 @@
+from time import sleep #because we want to print simultaneously both(Hello,Hi)
+from threading import *
+class Hello(Thread):#first thread
+      def run(self):
+            for i in range(5):
+                  print('Hello')
+                  sleep(1)
+
+
+class Hi(Thread):#second thread
+       def run(self):
+            for i in range(5):
+                  print('Hi')
+                  sleep(1)
+t1=Hello()
+t2=Hi()
+t1.start()#first thread(we use start instead of run because )
+sleep(0.2)
+t2.start()#second thread
+t1.join()#because this time main is waiting for t1 to complete the execution
+t2.join()#because this time main is waiting for t2 to complete the execution
+#After completing the execution t1,t2 then print main(thread)
+print('Bye')#main thread
+#OUTPUT
+'''Hello
+Hi
+Hello
+Hi
+Hello
+Hi
+Hello
+Hi
+Hello
+Hi
+Bye'''
