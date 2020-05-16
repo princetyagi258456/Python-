@@ -1,0 +1,11 @@
+def sort(nums):
+      for i in range(len(nums)-1,0,-1):#OUTER LOOP
+            for j in range(i):#INNER LOOP
+                  if nums[j]>nums[j+1]:
+                        temp=nums[j]
+                        nums[j]=nums[j+1]
+                        nums[j+1]=temp
+
+nums=[3,4,21,4,5,1]
+sort(nums)
+print(nums)
