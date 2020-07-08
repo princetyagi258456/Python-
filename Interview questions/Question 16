@@ -1,0 +1,11 @@
+What are functions in Python?
+
+Ans: A function is a block of code which is executed only when it is called. To define a Python function, the def keyword is used.
+
+Example:
+
+def Newfunc():
+print("Hi, Welcome to Edureka")
+Newfunc(); #calling the function
+
+Output: Hi, Welcome to Edureka
