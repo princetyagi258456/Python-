@@ -1,0 +1,5 @@
+What is self in Python?
+
+Ans: Self is an instance or an object of a class. In Python, this is explicitly included as the first parameter. However, this is not the case in Java where it’s optional.  It helps to differentiate between the methods and attributes of a class with local variables.
+
+The self variable in the init method refers to the newly created object while in other methods, it refers to the object whose method was called.
