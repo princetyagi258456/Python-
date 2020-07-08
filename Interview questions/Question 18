@@ -1,0 +1,8 @@
+What is a lambda function?
+
+Ans: An anonymous function is known as a lambda function. This function can have any number of parameters but, can have just one statement.
+
+Example:
+
+a = lambda x,y : x+y
+print(a(5, 6))
