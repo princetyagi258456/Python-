@@ -1,0 +1,4 @@
+How does break, continue and pass work?
+Break	Allows loop termination when some condition is met and the control is transferred to the next statement.
+Continue	Allows skipping some part of a loop when some specific condition is met and the control is transferred to the beginning of the loop
+Pass	Used when you need some block of code syntactically, but you want to skip its execution. This is basically a null operation. Nothing happens when this is executed.
