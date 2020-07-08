@@ -1,0 +1,9 @@
+How to install Python on Windows and set path variable?
+
+Ans: To install Python on Windows, follow the below steps:
+
+    Install python from this link: https://www.python.org/downloads/
+    After this, install it on your PC. Look for the location where PYTHON has been installed on your PC using the following command on your command prompt: cmd python. 
+    Then go to advanced system settings and add a new variable and name it as PYTHON_NAME and paste the copied path.
+    Look for the path variable, select its value and select ‘edit’.
+    Add a semicolon t
