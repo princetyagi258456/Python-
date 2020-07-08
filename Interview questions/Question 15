@@ -1,0 +1,15 @@
+What is the difference between Python Arrays and lists?
+
+Ans: Arrays and lists, in Python, have the same way of storing data. But, arrays can hold only a single data type elements whereas lists can hold any data type elements.
+
+Example:
+
+import array as arr
+My_Array=arr.array('i',[1,2,3,4])
+My_list=[1,'abc',1.20]
+print(My_Array)
+print(My_list)
+
+Output:
+
+array(‘i’, [1, 2, 3, 4]) [1, ‘abc’, 1.2]
