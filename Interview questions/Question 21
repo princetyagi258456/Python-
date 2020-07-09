@@ -1,0 +1,13 @@
+What does [::-1} do?
+Ans: [::-1] is used to reverse the order of an array or a sequence.
+For example:
+1
+2
+3
+	
+import array as arr
+My_Array=arr.array('i',[1,2,3,4,5])
+My_Array[::-1]
+
+Output: array(‘i’, [5, 4, 3, 2, 1])
+[::-1] reprints a reversed copy of ordered data structures such as an array or a list. the original array or list remains unchanged.
