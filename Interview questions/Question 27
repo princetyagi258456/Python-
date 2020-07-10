@@ -1,0 +1,3 @@
+ What is pickling and unpickling?
+
+Ans: Pickle module accepts any Python object and converts it into a string representation and dumps it into a file by using dump function, this process is called pickling. While the process of retrieving original Python objects from the stored string representation is called unpickling.
