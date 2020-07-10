@@ -1,0 +1,15 @@
+ How can you generate random numbers in Python?
+
+Ans: Random module is the standard module that is used to generate a random number. The method is defined as:
+1
+2
+	
+import random
+random.random
+
+The statement random.random() method return the floating point number that is in the range of [0, 1). The function generates random float numbers. The methods that are used with the random class are the bound methods of the hidden instances. The instances of the Random can be done to show the multi-threading programs that creates a different instance of individual threads. The other random generators that are used in this are:
+
+    randrange(a, b): it chooses an integer and define the range in-between [a, b). It returns the elements by selecting it randomly from the range that is specified. It doesn’t build a range object.
+    uniform(a, b): it chooses a floating point number that is defined in the range of [a,b).Iyt returns the floating point number
+    normalvariate(mean, sdev): it is used for the normal distribution where the mu is a mean and the sdev is a sigma that is used for standard deviation.
+    The Random class that is used and instantiated creates an independent multiple random number generators.
