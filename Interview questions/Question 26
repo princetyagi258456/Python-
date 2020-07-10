@@ -1,0 +1,10 @@
+ How do you write comments in python?
+
+Ans: Comments in Python start with a # character. However, alternatively at times, commenting is done using docstrings(strings enclosed within triple quotes).
+
+Example:
+
+#Comments in Python start like this
+print("Comments in Python start with a #")
+
+Output:  Comments in Python start with a #
