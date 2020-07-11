@@ -1,0 +1,2 @@
+How will you capitalize the first letter of string?
+Ans: In Python, the capitalize() method capitalizes the first letter of a string. If the string already consists of a capital letter at the beginning, then, it returns the original string.
