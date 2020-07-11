@@ -1,0 +1,2 @@
+ What are the generators in python?
+Ans: Functions that return an iterable set of items are called generators.
