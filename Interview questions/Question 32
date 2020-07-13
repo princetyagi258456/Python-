@@ -1,0 +1,21 @@
+What are docstrings in Python?
+Ans: Docstrings are not actually comments, but, they are documentation strings. These docstrings are within triple quotes. They are not assigned to any variable and therefore, at times, serve the purpose of comments as well.
+
+Example:
+
+1
+2
+3
+4
+5
+6
+7
+8
+"""
+Using docstring as a comment.
+This code divides 2 numbers
+"""
+x=8
+y=4
+z=x/y
+print(z)
