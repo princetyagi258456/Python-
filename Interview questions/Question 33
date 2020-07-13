@@ -1,0 +1,8 @@
+What is the purpose of is, not and in operators?
+Ans: Operators are special functions. They take one or more values and produce a corresponding result.
+
+is: returns true when 2 operands are true  (Example: “a” is ‘a’)
+
+not: returns the inverse of the boolean value
+
+in: checks if some element is present in some sequence
