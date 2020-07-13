@@ -1,0 +1,5 @@
+ What is the usage of help() and dir() function in Python?
+Ans: Help() and dir() both functions are accessible from the Python interpreter and used for viewing a consolidated dump of built-in functions. 
+
+Help() function: The help() function is used to display the documentation string and also facilitates you to see the help related to modules, keywords, attributes, etc.
+Dir() function: The dir() function is used to display the defined symbols
