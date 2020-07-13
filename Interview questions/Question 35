@@ -1,0 +1,6 @@
+Whenever Python exits, why isn’t all the memory de-allocated?
+Ans: 
+
+Whenever Python exits, especially those Python modules which are having circular references to other objects or the objects that are referenced from the global namespaces are not always de-allocated or freed.
+It is impossible to de-allocate those portions of memory that are reserved by the C library.
+On exit, because of having its own efficient clean up mechanism, Python would try to de-allocate/destroy every other object.
