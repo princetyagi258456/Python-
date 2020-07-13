@@ -1,0 +1,17 @@
+What is a dictionary in Python?
+Ans: The built-in datatypes in Python is called dictionary. It defines one-to-one relationship between keys and values. Dictionaries contain pair of keys and their corresponding values. Dictionaries are indexed by keys.
+
+Let’s take an example:
+
+The following example contains some keys. Country, Capital & PM. Their corresponding values are India, Delhi and Modi respectively.
+
+1
+dict={'Country':'India','Capital':'Delhi','PM':'Modi'}
+1
+print dict[Country]
+India
+1
+print dict[Capital]
+Delhi
+1
+print dict[PM]
