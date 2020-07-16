@@ -1,0 +1,9 @@
+What does len() do?
+Ans: It is used to determine the length of a string, a list, an array, etc.
+
+Example:
+
+1
+2
+stg='ABCD'
+len(stg)
