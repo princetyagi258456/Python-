@@ -1,0 +1,11 @@
+How can the ternary operators be used in python?
+Ans: The Ternary operator is the operator that is used to show the conditional statements. This consists of the true or false values with a statement that has to be evaluated for it.
+
+Syntax:
+
+The Ternary operator will be given as:
+[on_true] if [expression] else [on_false]x, y = 25, 50big = x if x < y else y
+
+Example:
+
+The expression gets evaluated like if x<y else y, in this case if x<y is true then the value is returned as big=x and if it is incorrect then big=y will be sent as a result
