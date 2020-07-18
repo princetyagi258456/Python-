@@ -1,0 +1,9 @@
+How can files be deleted in Python?
+Ans: To delete a file in Python, you need to import the OS Module. After that, you need to use the os.remove() function.
+
+Example:
+
+1
+2
+import os
+os.remove("xyz.txt")
