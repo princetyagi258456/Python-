@@ -1,0 +1,9 @@
+Explain Inheritance in Python with an example.
+Ans: Inheritance allows One class to gain all the members(say attributes and methods) of another class. Inheritance provides code reusability, makes it easier to create and maintain an application. The class from which we are inheriting is called super-class and the class that is inherited is called a derived / child class.
+
+They are different types of inheritance supported by Python:
+
+Single Inheritance – where a derived class acquires the members of a single super class.
+Multi-level inheritance – a derived class d1 in inherited from base class base1, and d2 are inherited from base2.
+Hierarchical inheritance – from one base class you can inherit any number of child classes
+Multiple inheritance – a derived class is inherited from more than one base class.
