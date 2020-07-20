@@ -1,0 +1,12 @@
+ How to import modules in python?
+
+Modules can be imported using the import keyword.  You can import modules in three ways-
+
+Example:
+
+1
+2
+3
+import array           #importing using the original module name
+import array as arr    # importing using an alias name
+from array import *    #imports
