@@ -1,0 +1,2 @@
+Does python support multiple inheritance?
+Ans: Multiple inheritance means that a class can be derived from more than one parent classes. Python does support multiple inheritance, unlike Java.
