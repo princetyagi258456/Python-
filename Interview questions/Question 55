@@ -1,0 +1,16 @@
+How are classes created in Python? 
+Ans: Class in Python is created using the class keyword.
+
+Example:
+
+1
+2
+3
+4
+5
+class Employee:
+def __init__(self, name):
+self.name = name
+E1=Employee("abc")
+print(E1.name)
+Output: abc
