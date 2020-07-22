@@ -1,0 +1,2 @@
+What does the join method do in Python?
+Python provides the join() method which works on strings, lists, and tuples. It combines them and returns a united value.
