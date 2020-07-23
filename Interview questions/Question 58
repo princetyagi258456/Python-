@@ -1,0 +1,9 @@
+ What does the Title() method do in Python?
+Python provides the title() method to convert the first letter in each word to capital format while the rest turns to Lowercase.
+
+#Example
+str = 'lEaRn pYtHoN'
+print(str.title())
+The output:
+
+Learn Python
