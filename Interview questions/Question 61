@@ -1,0 +1,5 @@
+Is Python list a linked list?
+A Python list is a variable-length array which is different from C-style linked lists.
+
+Internally, it has a contiguous array for referencing to other objects and stores a pointer to the array variable and its length in the list head structure.
+
