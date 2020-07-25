@@ -1,0 +1,4 @@
+How does Python manage the memory?
+Python implements a heap manager internally which holds all of its objects and data structures.
+
+This heap manager does the allocation/de-allocation of heap space for objects.
