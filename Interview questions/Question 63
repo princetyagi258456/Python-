@@ -1,0 +1,5 @@
+What’s the process to get the home directory using ‘~’ in Python?
+You need to import the os module, and then just a single line would do the rest.
+
+import os
+print (os.path.expanduser('~'))
