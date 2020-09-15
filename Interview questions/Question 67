@@ -1,0 +1,11 @@
+What are the built-in types available in Python?
+Here is the list of most commonly used built-in types that Python supports:
+
+Immutable built-in datatypes of Python
+Numbers
+Strings
+Tuples
+Mutable built-in datatypes of Python
+List
+Dictionaries
+Sets
