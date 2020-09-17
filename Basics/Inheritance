@@ -1,0 +1,4 @@
+class BaseClass:
+  Body of base class
+class DerivedClass(BaseClass):
+  Body of derived class
