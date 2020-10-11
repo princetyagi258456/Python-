@@ -1,0 +1,21 @@
+
+Example of instance method and class method and static method
+
+class car:
+	mil=15
+	def __init__(self,slist , mlist): #Instance Method
+		self.slist=slist
+		self.mlist=mlist
+
+	@classmethod
+	def mileage(cls):
+		return cls.mil
+
+	@staticmethod
+	def info():
+		print('This is very good car in luxury manner')
+
+s1=car('BMW','AUDI')
+print(car.mileage())
+print(s1.slist)
+car.info()
